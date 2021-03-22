@@ -1,0 +1,15 @@
+name: 'Check for broken URL:s'
+description: 'Github action that checks for URL:s that return 404'
+inputs:
+  file-types:  # id of input
+    description: 'Which file types would we like to check for broken links'
+    required: true
+    default: '.md'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who-to-greet }}
