@@ -5,9 +5,6 @@ inputs:
     description: 'Which file types would we like to check for broken links'
     required: true
     default: '.md'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
 runs:
   using: 'docker'
   image: 'Dockerfile'
