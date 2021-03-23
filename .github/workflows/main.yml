@@ -11,6 +11,3 @@ jobs:
       uses: JohanWork/url-test-github-action@v1
       with:
         file-types: '.md'
-    # Use the output from the `hello` step
-    - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
