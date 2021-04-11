@@ -4,4 +4,4 @@ github action for the url library
 
 # Some broken links to test
 
-https://github.com/kubeflow/pipelines/tree/master/component
+https://kubernetes.io/docs/concepts/workloads/pods/
